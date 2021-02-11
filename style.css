@@ -1,15 +1,18 @@
 
-
 img{
-    width:100px;
-    height:90px;
+    width:90px;
+    height:75px;
+    front-color:green;
   }
   header{
     background: #C7E5E2;
     max-width: 100%;
     display:flex; 
+    position: fixed;
   }
   nav{
+    background:#C7E5E2;
+    color: green;
     width:100%;
     position: fixed;
   }
@@ -22,5 +25,38 @@ img{
   .signup-page{
    height:500px;
     display:flex;
+  justify-content: center;
     align-items:center;
+  }
+  .signup-form{
+   text-align:center;
+  }
+  .form-button{
+    margin-top:10px;
+  }
+  .vedio-page{
+    height:400px;
+    background:#C7E5E2;
+     display:flex;
+  justify-content: center;
+    align-items:center;
+  }
+  .vedio-class{
+    align-items: center;
+  }
+  .image-page{
+    height:500px;
+    background-image:url(https://thumbs.dreamstime.com/z/transparent-background-light-turqouise-yellow-colors-45303781.jpg); 
+    jusify-content:center;
+  }
+  .text-paragraph{
+    width:80%;
+    align-text:center;
+  
+   
+  }
+  .background-image{
+    height:500px;
+    background-image:url(https://thumbs.dreamstime.com/z/white-wood-texture-background-old-wood-planks-painted-white-color-30020900.jpg);
+   background-blend-mode:lighten;
   }
