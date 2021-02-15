@@ -8,45 +8,44 @@
         <img src="https://www.svgrepo.com/show/7672/truck.svg" alt="company logo">
     </div>
     <div class="navbar">
-        <nav>
-            <ul>
-                <li>About Us</li>
-                <li>Team</li>
-                <li><a href="#vedio">Services</a></li>
-                <li>Booking</li>
-            </ul>
+        <nav id="nav-bar">
+            <a href="#aboutus" class="nav-link">About Us</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#booking" class="nav-link">Booking</a>
         </nav>
     </div>
 </header>
-
-<body>
-    <div class="signup-page">
-        <form class="signup-form">
-            <h1>Signup Page</h1>
-            <div class="signup-class">
-                <br> <label for="signup">Email Address:</label>
-                <input type="email" id="email" placeholder="enter your email">
-                <div class="form-button">
-                    <input type="submit">
-                </div>
+<div class="signup-page">
+    <form class="signup-form" for="email" id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <h1>Signup Page</h1>
+        <div class="signup-class">
+            <br> <label for="signup">Email Address:</label>
+            <input type="email" id="email" placeholder="enter your email" name="email">
+            <div class="form-button">
+                <input type="submit" name="submit" id="submit" value="submit">
             </div>
-        </form>
-    </div>
-    <div class="vedio-page" id="vedio">
-        <div class="vedio-class" id="vedio-class">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LNTcXzgQww4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
         </div>
+</div>
+</form>
+</div>
+<div class="vedio-page">
+    <div class="vedio-class" id="vedio-class">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LNTcXzgQww4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen id="video"></iframe>
     </div>
-    <div class="image-page">
-        <div class="text-paragraph">
+</div>
+<div class="image-page">
+    <div class="text-paragraph">
+        <section>
             <p>We are a family business, founded in 2018, and the first generation of employees work purposefully to
                 become successful and market leaders in transport. We are driven and passionate about our work and our
                 values, and do everything to help our customers and we always give that little extra.</p>
-        </div>
     </div>
-    <div class="background-image"></div>
+</div>
+</section>
+<div class="background-image"></div>
 </body>
 
 </html>
