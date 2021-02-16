@@ -10,8 +10,8 @@ h3{
   text-align: center;
 }
 img{
-  width:100px;
-  height:80px;
+  width:30px;
+  height:30px;
 }
 header{
   display:flex;
@@ -80,6 +80,4 @@ justify-content: center;
 .text-paragraph{
   width:80%;
   align-text:center;
-
- 
 }
