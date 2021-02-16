@@ -1,62 +1,85 @@
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgrey;
+  }
+}
+body{
+  background: lightblue;
+}
+h3{
+  text-align: center;
+}
 img{
-    width:90px;
-    height:75px;
-    front-color:green;
-  }
-  header{
-    background: #C7E5E2;
-    max-width: 100%;
-    display:flex; 
-    position: fixed;
-  }
-  nav{
-    background:#C7E5E2;
-    color: green;
-    width:100%;
-    position: fixed;
-  }
-  ul{
-    list-style:none;
-    margin:30px;
-     justify-content:space-around;
-     display:flex;
-  }
-  .signup-page{
-   height:500px;
-    display:flex;
-  justify-content: center;
-    align-items:center;
-  }
-  .signup-form{
-   text-align:center;
-  }
-  .form-button{
-    margin-top:10px;
-  }
-  .vedio-page{
-    height:400px;
-    background:#C7E5E2;
-     display:flex;
-  justify-content: center;
-    align-items:center;
-  }
-  .vedio-class{
-    align-items: center;
-  }
-  .image-page{
-    height:500px;
-    background-image:url(https://thumbs.dreamstime.com/z/transparent-background-light-turqouise-yellow-colors-45303781.jpg); 
-    jusify-content:center;
-  }
-  .text-paragraph{
-    width:80%;
-    align-text:center;
+  width:100px;
+  height:80px;
+}
+header{
+  display:flex;
+  width:100%;
+ 
+ 
+}
+.navbar{
+
+  display:flex;
+   align-items:center; 
+   position: fixed;
+  top: 0;
+}
+nav{
+width:100%;
+justiy-content:space-around;
+ align-items:center; 
+}
+ 
+.signup-page{
+ 
+ height:300px;
+  display:flex;
   
-   
-  }
-  .background-image{
-    height:500px;
-    background-image:url(https://thumbs.dreamstime.com/z/white-wood-texture-background-old-wood-planks-painted-white-color-30020900.jpg);
-   background-blend-mode:lighten;
-  }
+justify-content: center;
+  align-items:top;
+}
+.signup-form{
+ text-align:center;
+}
+.form-button{
+  margin-top:10px;
+}
+h2{
+  text-align:center;
+}
+.p{
+  text-align:justify;
+  
+}
+.services{
+  height:300px;
+  display:flex;
+  margin-top: 90px;
+  justify-content: space-around;
+}
+#firstimg #secondimg #thirdimg{
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+   padding: 2px 16px;
+}
+.vedio-page{
+  height:400px;
+   display:flex;
+justify-content: center;
+  align-items:center;
+}
+.vedio-class{
+  align-items: center;
+}
+.image-page{
+  height:500px;
+  jusify-content:center;
+}
+.text-paragraph{
+  width:80%;
+  align-text:center;
+
+ 
+}
