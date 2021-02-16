@@ -9,15 +9,13 @@ body{
 h3{
   text-align: center;
 }
-img{
+#header-img{
   width:30px;
   height:30px;
 }
 header{
   display:flex;
   width:100%;
- 
- 
 }
 .navbar{
 
@@ -31,7 +29,17 @@ width:100%;
 justiy-content:space-around;
  align-items:center; 
 }
- 
+#banner-img{
+  opacity: 0.6;
+  position: center;
+}
+.centered {
+  color: darkblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .signup-page{
  
  height:300px;
