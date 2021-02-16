@@ -34,14 +34,15 @@ justiy-content:space-around;
   position: center;
 }
 .centered {
-  color: darkblue;
+  color: #00008b;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .signup-page{
- 
+  top: 20px;
+  background-color: rgb(207, 204, 204);
  height:300px;
   display:flex;
   
